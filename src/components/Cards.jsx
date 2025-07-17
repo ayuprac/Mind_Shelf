@@ -5,7 +5,7 @@ function Cards({ item }) {
   const receiptId = "qwsaq1";
 
   const paymentHandler = async (e) => {
-    const response = await fetch("https://mindshelf-mlds.onrender.com/order", {
+    const response = await fetch("https://book-store-1-l3k1.onrender.com/order", {
       method: "POST",
       body: JSON.stringify({
         amount,

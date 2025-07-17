@@ -37,7 +37,7 @@ function Signup() {
       password: data.password,
     };
     await axios
-      .post("https://mindshelf-mlds.onrender.com/user/signup", userInfo)
+      .post("https://book-store-1-l3k1.onrender.com/user/signup", userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {

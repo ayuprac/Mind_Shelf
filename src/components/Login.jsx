@@ -18,7 +18,7 @@ function Login() {
       password: data.password,
     };
     await axios
-      .post("https://mindshelf-mlds.onrender.com/user/login", userInfo)
+      .post("https://book-store-1-l3k1.onrender.com/user/login", userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {

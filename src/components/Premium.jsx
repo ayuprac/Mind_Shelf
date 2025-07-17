@@ -10,7 +10,7 @@ function Premium() {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const res = await axios.get("https://mindshelf-mlds.onrender.com/book");
+        const res = await axios.get("https://book-store-1-l3k1.onrender.com/book");
         console.log(res.data);
         setBook(res.data);
       } catch (error) {
