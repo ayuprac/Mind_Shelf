@@ -1,17 +1,19 @@
-import express from "express"
-import dotenv from "dotenv"
+import express from "express";
+import dotenv from "dotenv";
 import mongoose from "mongoose";
-import bookRoute from "./route/book.route.js"
+import bookRoute from "./route/book.route.js";
 import userRoute from "./route/user.route.js";
-import cors from 'cors'
-//razorpay
-import Razorpay from "razorpay"
+import cors from "cors";
+import Razorpay from "razorpay";
+
+dotenv.config(); // moved up to make env vars available early
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+// Razorpay endpoint
 app.post("/order", async (req, res) => {
   try {
     const razorpay = new Razorpay({
@@ -33,25 +35,27 @@ app.post("/order", async (req, res) => {
   }
 });
 
-
-dotenv.config();
+// MongoDB connection
 const PORT = process.env.PORT || 4000;
 const URI = process.env.MongoDBURI;
 
-//connect to mongoDB
-try {
-    mongoose.connect(URI,{
-        useNewUrlParser: true,
-        useUnifiedTopology: true
-    });
+async function startServer() {
+  try {
+    await mongoose.connect(URI); // deprecated options removed
     console.log("Connected to mongoDB");
-} catch (error) {
-    console.log("Error",error);
-}
-//defining routes
-app.use("/book",bookRoute);
-app.use("/user",userRoute);
-app.listen(PORT, () => {
-  console.log(`Server listening on port ${PORT}`);
-});
 
+    // Define routes after DB connection
+    app.use("/book", bookRoute);
+    app.use("/user", userRoute);
+
+    app.listen(PORT, () => {
+      console.log(`Server listening on port ${PORT}`);
+    });
+
+  } catch (error) {
+    console.error("Failed to connect to MongoDB", error);
+    process.exit(1);
+  }
+}
+
+startServer();
