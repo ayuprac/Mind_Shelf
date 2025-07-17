@@ -1,0 +1,119 @@
+
+
+[
+    {
+        "id":1,
+        "name": "Alice in Wonderland",
+        "title": "Lewis Carrol",
+        "price": 0,
+        "category":"Free",
+        "image":"/alice.jpg"
+    },
+        {
+        "id":2,
+        "name": "Hooked",
+        "title": "Nir Eyal",
+        "price": 0,
+        "category":"Free",
+        "image": "/hooked.png" 
+
+
+    },
+        {
+        "id":3,
+        "name": "Ikigai",
+        "title": "Hector Garcia",
+        "price": 0,
+        "category":"Free",
+        "image":"/ikigai.jpg"
+
+    },
+        {
+        "id":4,
+        "name": "Harry-Potter",
+        "title": "J.K Rowling",
+        "price": 0,
+        "category":"Free",
+        "image":"/harrypotter.jpeg"
+
+    },
+        {
+        "id":5,
+        "name": "Ratan Tata Biography",
+        "title": "Thomas Mathew",
+        "price": 0,
+        "category":"Free",
+        "image":"/ratantata.jpeg"
+
+    },
+        {
+        "id":6,
+        "name": "Sapiens",
+        "title": "Yuval Noah Harari",
+        "price": 0,
+        "category":"Free",
+        "image": "/sapiens.jpg"
+
+
+    },
+        {
+        "id":7,
+        "name": "Think and Grow Rich",
+        "title": "Napoleon Hill",
+        "price": 250,
+        "category":"paid",
+        "image": "/think.jpeg"
+
+
+    },
+        {
+        "id":8,
+        "name": "Power Of Now",
+        "title": "Eckhart Tolle",
+        "price": 250,
+        "category":"Paid",
+        "image": "/power.jpeg"
+
+
+    },
+        {
+        "id":9,
+        "name": "Steve Jobs",
+        "title": "Walter Issacson",
+        "price": 250,
+        "category":"Paid",
+        "image": "/stevejobs.jpeg"
+
+
+    },
+        {
+        "id":10,
+        "name": "Seven Habits of Highly Effective People",
+        "title": "Stephen Covey",
+        "price": 250,
+        "category":"Paid",
+        "image": "/sevenhabits.jpeg"
+
+
+    },
+        {
+        "id":11,
+        "name": "Hitchiker's Guide to Galaxy",
+        "title": "Douglas Adams",
+        "price": 250,
+        "category":"Paid",
+        "image": "/hitchikers.jpeg"
+
+
+    },
+        {
+        "id":12,
+        "name": "Intelligent Investor",
+        "title": "Benjamin Graham",
+        "price": 250,
+        "category":"Paid",
+        "image": "/intelligent.jpeg"
+
+
+    }
+]
