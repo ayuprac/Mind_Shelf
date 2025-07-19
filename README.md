@@ -1,4 +1,4 @@
-# Mind📖Shelf — Your Digital Book Haven
+# Mind📖Shelf — Online bookstore
 
 **Mind📖Shelf** is a modern online bookstore built with the MERN stack, offering both free and premium browsing experiences. Users can freely explore a wide variety of books without signing up. For enhanced features and access to premium content, users can create an account and shop through secure Razorpay payments.
 
