@@ -33,18 +33,18 @@
 ## 🖼️ Screenshots
 
 ### 🏠 Home Page
-![Home Page](<img width="1907" height="900" alt="Home" src="https://github.com/user-attachments/assets/a0546046-1329-40f3-acbe-debb5ba22014" />
-)
+<img width="1907" height="900" alt="Home" src="https://github.com/user-attachments/assets/a0546046-1329-40f3-acbe-debb5ba22014" />
+
 <img width="1903" height="831" alt="2 home " src="https://github.com/user-attachments/assets/983beb21-e74a-4a78-af46-73eca9932e98" />
 
 
 ### 📖 Signup to access premium
-![Premium page](<img width="1892" height="886" alt="3 premiumpage" src="https://github.com/user-attachments/assets/88a74390-7e56-475a-83c6-e2006fd1c2d6" />
-)
+<img width="1892" height="886" alt="3 premiumpage" src="https://github.com/user-attachments/assets/88a74390-7e56-475a-83c6-e2006fd1c2d6" />
+
 
 ### 💳 Razorpay Checkout
-![Payment](<img width="1920" height="913" alt="payment" src="https://github.com/user-attachments/assets/0f61b4b4-6bd4-4e8c-ae3c-b2db47272513" />
-)
+<img width="1920" height="913" alt="payment" src="https://github.com/user-attachments/assets/0f61b4b4-6bd4-4e8c-ae3c-b2db47272513" />
+
 
 <img width="1920" height="900" alt="final_payment" src="https://github.com/user-attachments/assets/db9d8321-ebda-45bd-b279-d5e07be5f8d1" />
 
