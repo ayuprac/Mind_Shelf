@@ -61,7 +61,7 @@
 
 ---
 
-### ❤️ Made with love by Ayush
+###  Made with ♥️ by Ayush
 
 ---
 
